@@ -1,4 +1,4 @@
-package problem/addTwoNumbers
+package addTwoNumbers
 
 import "testing"
 
@@ -25,7 +25,7 @@ type testData struct {
 }
 
 func createTestDataSet() []testData {
-	return []testData {
+	return []testData{
 		{
 			listOne:  createList(2, 4, 3),
 			listTwo:  createList(5, 6, 4),

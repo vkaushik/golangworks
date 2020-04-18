@@ -1,4 +1,4 @@
-package problem/moveZeros
+package moveZeros
 
 func sol2(nums []int) {
 	zeroCount := 0

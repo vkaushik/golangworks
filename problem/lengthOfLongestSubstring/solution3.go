@@ -1,4 +1,4 @@
-package problem/lengthOfLongestSubstring
+package lengthOfLongestSubstring
 
 func solutionThree(s string) int {
 	if len(s) <= 1 {

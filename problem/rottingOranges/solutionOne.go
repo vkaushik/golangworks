@@ -1,4 +1,4 @@
-package problem/rottingOranges
+package rottingOranges
 
 func orangesRotting(grid [][]int) int {
 	freshOranges := 0

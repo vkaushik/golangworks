@@ -1,4 +1,4 @@
-package problem/maximumSubArray
+package maximumSubArray
 
 func maxSubArray(nums []int) int {
 	maxSum := 0

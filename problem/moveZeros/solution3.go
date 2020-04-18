@@ -1,4 +1,4 @@
-package problem/moveZeros
+package moveZeros
 
 import "fmt"
 

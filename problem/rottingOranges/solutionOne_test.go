@@ -1,4 +1,4 @@
-package problem/rottingOranges
+package rottingOranges
 
 import (
 	"reflect"
