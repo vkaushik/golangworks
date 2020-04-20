@@ -22,25 +22,33 @@ func runIt(testData TestData) int {
 
 func createTestDataSet() []TestData {
 	return []TestData{
-		TestData{
+		{
 			arg1:     []int{},
 			expected: 0,
 		},
-		TestData{
+		{
 			arg1:     []int{-2, 1, -3, 4, -1, 2, 1, -5, 4},
 			expected: 6,
 		},
-		TestData{
+		{
 			arg1:     []int{1},
 			expected: 1,
 		},
-		TestData{
+		{
 			arg1:     []int{1, 3},
 			expected: 4,
 		},
-		TestData{
+		{
 			arg1:     []int{1, -1},
 			expected: 1,
+		},
+		{
+			arg1:     []int{-1, -1},
+			expected: -1,
+		},
+		{
+			arg1:     []int{-1},
+			expected: -1,
 		},
 	}
 }
